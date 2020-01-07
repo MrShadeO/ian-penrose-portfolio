@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    font-family: "Open Sans", sans-serif; 
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body * {
+    background-color: lightgray;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.headline {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.headline * {
+    padding: 0;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+}
+
+.contact-info, .project-info {
+    width: 100%;
+}
+
+.contact-info * {
+    list-style: none;
+    padding: 0;
+    padding-left: 5px;
+}
+
+.bio {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.bio *, .headline *, .contact-info *, .project-info, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.screenshot, .icons {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icons *{
+    max-width: 12%;
+    max-height: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.project-info * {
+    list-style: none;
+    padding-right: 10px;
+}
+
+.make-bold {
+    font-weight: bold;
+}
