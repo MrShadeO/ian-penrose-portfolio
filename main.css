@@ -6,6 +6,7 @@ body {
     background-color: gray;
     font-family: "Open Sans", sans-serif; 
     font-size: 20px;
+    line-height: 27px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,6 +20,7 @@ body * {
 
 .headline {
     font-size: 25px;
+    line-height: 36px;
     text-align: center;
     margin-top: 0;
 }
