@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: gray;
+    background-color: lightgray;
     font-family: "Open Sans", sans-serif; 
     font-size: 20px;
     line-height: 27px;
@@ -13,7 +13,7 @@ body {
 }
 
 body * {
-    background-color: lightgray;
+    background-color: white;
     align-self: center;
     margin-top: 30px;
 }
@@ -67,7 +67,7 @@ h4 {
 }
 
 .screenshot, .icons {
-    max-width: 100%;
+    width: 100%;
     padding: 0;
     margin: 0;
 }
@@ -78,11 +78,17 @@ h4 {
     justify-content: center;
 }
 
+.screenshot {
+    background-color: darkgray;
+    height: 300px;
+}
+
 .icons *{
-    max-width: 12%;
-    max-height: 40px;
-    padding: 0;
+    width: 13%;
+    height: 50px;
+    padding: 5;
     margin: 0;
+    background-color: gray
 }
 
 .project-info * {
@@ -92,4 +98,37 @@ h4 {
 
 .make-bold {
     font-weight: bold;
+}
+
+@media screen and (min-width:600px) {
+    .headline, .contact-info, .bio, .all-projects {
+        width: 90%;
+    }
+
+    .project-contents {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .pic-space {
+        width: 50%;/*
+        float: left;
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-bottom: 10px;*/
+    }
+
+    .project-info {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .headline, .contact-info, .bio, .all-projects {
+        width: 70%;
+    }
+
+    .icons * {
+        width: 9%;
+    }
 }
