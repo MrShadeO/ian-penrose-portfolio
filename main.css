@@ -111,11 +111,7 @@ h4 {
     }
 
     .pic-space {
-        width: 50%;/*
-        float: left;
-        margin-right: 20px;
-        margin-left: 10px;
-        margin-bottom: 10px;*/
+        width: 50%;
     }
 
     .project-info {
