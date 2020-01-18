@@ -43,7 +43,7 @@ h4 {
     font-style: italic;
 }
 
-.contact-info, .project-info {
+.contact-info, .project-info, .bio, .headline {
     width: 100%;
 }
 
