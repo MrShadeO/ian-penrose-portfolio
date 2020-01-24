@@ -157,7 +157,8 @@ h1 {
     }
 
     .icons * { 
-        height: 25px;
+        height: 30px;
+        width: 6%;
     }
 
     .icon2 {
